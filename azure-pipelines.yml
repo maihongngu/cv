@@ -21,7 +21,8 @@ steps:
     npm install
     npm run build
     git config --global user.email "vjpking5913@gmail.com"
-    git config --global user.name "Ngu Mai"
+    git config --global user.name "maihongngu"
+    git config --global user.password "Nguyeuhoa123"
     git remote set-url origin git@github.com:maihongngu/cv
-    npm run deploy -- -r https://maihongngu:5f77bf89ac9eb25eee037428a7ac112eed933e20@github.com/maihongngu/cv.git
+    npm run deploy -- -r https://github.com/maihongngu/cv.git
   displayName: 'npm install and build'
