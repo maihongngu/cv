@@ -131,7 +131,7 @@
   ],
   "projects":[
     {
-      "title": "News Web App",
+      "title": "News App",
       "Description": "This app helps you to know all the news about the all part of the World",
       "repository":"https://github.com/ngumh/newswebapp_NET"
     },
