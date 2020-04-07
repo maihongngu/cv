@@ -10,6 +10,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
+- checkout: self
+  persistCredentials: true
 - task: NodeTool@0
   inputs:
     versionSpec: '10.x'
@@ -20,5 +22,5 @@ steps:
     git config --global user.name "Ngu Mai"
     npm install
     npm run build
-    npm run deploy
+    npm run deploy -- -r https://b2a072ac59bc9edf5372cff05de017ec6cf50c9a@github.com/maihongngu/cv.git
   displayName: 'npm install and build'
