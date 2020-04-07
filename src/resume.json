@@ -44,6 +44,10 @@
     {
       "name": "Boulevardier",
       "x_icon": "fa-cocktail"
+    },
+    {
+      "name": "Corpse Reviver No.2",
+	"x_icon":"fa-cocktail"
     }
   ],
   "skills": [
@@ -106,10 +110,10 @@
   "work": [
     {
       "company": "IMT Solutions",
-      "position": "Part Time",
+      "position": "",
       "website": "https://www.imt-soft.com/",
       "startDate": "2019-09-24",
-      "endDate": "",
+      "endDate": "2020-02-04",
       "summary": "Joined the PO Tool Project",
       "highlights": []
     }
