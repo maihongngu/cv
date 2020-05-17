@@ -7,7 +7,7 @@ const PetProjects = () => {
             <div className="container">
                 <h1 className="title has-text-white">Pet Projects</h1>
                 <div className="has-text-white">
-                    <p>In my free time, I work on some pet projects: <a href="https://github.com/ngumh" className="is-hovered has-text-info">https://github.com/ngumh</a></p>
+                    <p>In my free time, I work on some pet projects: <a href="https://github.com/maihongngu" className="is-hovered has-text-info">https://github.com/maihongngu</a></p>
                 </div>
                 <br />
                 <div className="columns">
