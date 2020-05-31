@@ -1,3 +1,4 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif !important;
@@ -52,7 +53,7 @@ Button
   color: inherit;
   background: none;
   cursor: pointer;
-  padding: 15px;
+  padding: 25px;
   padding-right: 60px;
   padding-left: 60px;
   display: inline-block;
@@ -66,47 +67,83 @@ Button
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-.btn-4 {
-	border-radius: 50px;
-	border: 3px solid #fff;
-	color: #fff;
-	overflow: hidden;
-}
-
-.btn-4:active {
-	border-color: #17954c;
-	color: #17954c;
-}
-
-.btn-4:hover {
-	background: #24b662;
-}
-
-.btn-4:before {
+.btn:after {
+	content: '';
 	position: absolute;
-	height: 100%;
-	font-size: 125%;
-	line-height: 2.5;
-	color: #fff;
+	z-index: -1;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
 }
 
-.btn-4:active:before {
-	color: #17954c;
+.icon-cart:before {
+  color:#fff;
+  content: '\1F618';
+  font-family: "Font Awesome 5 Free"; /* This is the correct font-family*/
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
 }
 
-/* Button 4a */
-.btn-4a:before {
-	left: 130%;
+.btn-5 {
+	border: solid 2px #fff;
+	color: #fff;
+	height: 70px;
+	min-width: 260px;
+	line-height: 24px;
+	font-size: 16px;
+	overflow: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.btn-5:active {
+	background: #ffffff;
+	top: 2px;
+}
+
+.btn-5 span {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all 0.3s;
+	-webkit-backface-visibility: hidden;
+	-moz-transition: all 0.3s;
+	-moz-backface-visibility: hidden;
+	transition: all 0.3s;
+	backface-visibility: hidden;
+}
+
+.btn-5:before {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	line-height: 2.5;
+	font-size: 180%;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn-5:active:before {
+	color: #ffffff;
+}
+
+/* Button 5a */
+.btn-5a:hover span {
+	-webkit-transform: translateY(300%);
+	-moz-transform: translateY(300%);
+	-ms-transform: translateY(300%);
+	transform: translateY(300%);
+}
+
+.btn-5a:before {
+	left: 0;
+	top: -100%;
+}
+
+.btn-5a:hover:before {
 	top: 0;
 }
 
-.btn-4a:hover:before {
-	left: 80%;
-}
-.icon-arrow-right:before {
-  content:  "\21B4 "
-
-}
