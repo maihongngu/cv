@@ -6,7 +6,7 @@ class NavBar extends React.Component {
 
     constructor(props){
         super(props);
-        this.state = {showMenu: false};
+        this.state = {showMenu: false, setColor: true};
         this.handleMenuClick = this.handleMenuClick.bind(this);
     }
 
@@ -34,14 +34,17 @@ class NavBar extends React.Component {
                             <MenuItem
                                 text = "About Me"
                                 href = "#aboutMe"
+                                color = {!this.state.showMenu ? "has-text-white" : "has-text-black"}
                             />
                             <MenuItem
                                 text = "Skills"
                                 href = "#skills"
+                                color = {!this.state.showMenu ? "has-text-white" : "has-text-black"}
                             />
                             <MenuItem
                                 text = "Experience"
                                 href = "#experience"
+                                color = {!this.state.showMenu ? "has-text-white" : "has-text-black"}
                             />
                         </div>
                     </div>

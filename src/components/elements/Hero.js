@@ -13,6 +13,7 @@ function Hero() {
                     <p className="subtitle is-5 has-text-white">I'm a</p>
                     <h1 className="title has-text-white">{Resume.basics.label}</h1>
                     <h2 className="subtitle has-text-white">{Resume.basics.location.region}, {Resume.basics.location.country}</h2>
+                    <button className="btn btn-4 btn-4a icon-arrow-right">Download CV</button>
                 </div>
             </div>
         </section>
