@@ -52,7 +52,9 @@ Button
   color: inherit;
   background: none;
   cursor: pointer;
-  padding: 25px 80px;
+  padding: 15px;
+  padding-right: 60px;
+  padding-left: 60px;
   display: inline-block;
   margin: 15px 30px 15px 0px;
   text-transform: uppercase;
@@ -84,7 +86,7 @@ Button
 	position: absolute;
 	height: 100%;
 	font-size: 125%;
-	line-height: 3.5;
+	line-height: 2.5;
 	color: #fff;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -105,5 +107,6 @@ Button
 	left: 80%;
 }
 .icon-arrow-right:before {
-	content: "\e00d";
+  content:  "\21B4 "
+
 }
