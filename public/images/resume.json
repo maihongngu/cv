@@ -1,0 +1,140 @@
+{
+  "basics": {
+    "name": "Mai Hồng Ngự",
+    "label": "Software Engineer",
+    "picture": "images/clooneymai.JPG",
+    "cv":"images/curriculumvitae.pdf",
+    "x_title": "Hey There! Glad you're here",
+    "summary": "Currently I’m working as an Intern developer exploring React world. I’m interested in service management and developing front-end and back-end applications.",
+    "location": {
+      "country": "Vietnam",
+      "countryCode": "VIE",
+      "region": "Ho Chi Minh City"
+    },
+    "profiles": [
+      {
+        "socialmedia": "LinkedIn",
+        "urlSocialMedia": "https://www.linkedin.com/in/ng%E1%BB%B1-mai-h%E1%BB%93ng-09bb71156/",
+        "x_icon": "fab fa-2x fa-linkedin"
+      },
+      {
+        "socialmedia": "Facebook",
+        "urlSocialMedia":"https://www.facebook.com/chlove3004",
+        "x_icon": "fab fa-2x fa-facebook"
+      },
+      {
+        "socialmedia": "Instagram",
+        "urlSocialMedia": "https://www.instagram.com/_tesoroo/",
+        "x_icon": "fab fa-2x fa-instagram"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "Travel",
+      "x_icon": "fa-globe-africa"
+    },
+    {
+      "name": "Cat lover",
+      "x_icon": "fa-cat"
+    },
+    {
+      "name": "Waffle",
+      "x_icon": "fa-utensils"
+    },
+    {
+      "name": "Boulevardier",
+      "x_icon": "fa-cocktail"
+    },
+    {
+      "name": "Corpse Reviver No.2",
+	"x_icon":"fa-cocktail"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML5 / CSS3",
+      "level": 90,
+      "keywords": ["Front End"]
+    },
+    {
+      "name": "React / Redux",
+      "level": 85,
+      "keywords": ["Front End"]
+    },
+    {
+      "name": "SCSS / jQuery / Responsive Web",
+      "level": 85,
+      "keywords": ["Front End"]
+    },
+    {
+      "name": "Javascript / ES6",
+      "level": 85,
+      "keywords": ["Front End"]
+    },
+    {
+      "name": "Ruby On Rails",
+      "level": 85,
+      "keywords": ["Back End"]
+    },
+    {
+      "name": "SQL",
+      "level": 80,
+      "keywords": ["Back End"]
+    },
+    {
+      "name": "Java",
+      "level": 75,
+      "keywords": ["Back End"]
+    },
+    {
+      "name": "Git / TFS",
+      "level": 75,
+      "keywords": ["Other Skills"]
+    },
+    {
+      "name": "Linux",
+      "level": 75,
+      "keywords": ["Other Skills"]
+    }
+  ],
+  "work": [
+    {
+      "company": "IMT Solutions",
+      "position": "",
+      "website": "https://www.imt-soft.com/",
+      "startDate": "2019-09-24",
+      "endDate": "2020-02-04",
+      "summary": "Joined the PO Tool Project",
+      "highlights": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent speaker",
+      "ielts": "6.5"
+    },
+    {
+      "language": "Vietnamese",
+      "fluency": "Native speaker"
+    }
+  ],
+  "projects":[
+    {
+      "title": "News App",
+      "Description": "This app helps you to know all the news about the all part of the World",
+      "repository":"https://github.com/ngumh/newswebapp_NET"
+    },
+    {
+      "title": "Get Image by Tag, Username",
+      "Description": "This app helps you download all the image by tags on Instagram",
+      "repository":"https://github.com/ngumh/ImgInstagram"
+    },
+    {
+      "title":"Book Store Web with PHP",
+      "Description": "This website will help people find and buy books",
+      "repository":"https://github.com/ngumh/bookstorephp"
+    }
+  ]
+}
