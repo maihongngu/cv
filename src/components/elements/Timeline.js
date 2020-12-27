@@ -25,6 +25,7 @@ function Timeline() {
                                         position={item.position}
                                         company = {item.company}
                                         summary = {item.summary}
+                                        website = {item.website}
                                     />
                         }))
                     return content
