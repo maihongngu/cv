@@ -7,22 +7,21 @@
 
 .countdown-item {
     color: ghostwhite;
-    font-size: 40px;
+    font-size: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    line-height: 30px;
-    margin: 10px;
+    line-height: 60px;
     padding-top: 10px;
     position: relative;
-    width: 100px;
+    width: 13vw;
     height: 100px;
 }
 
 .countdown-item span {
     color: ghostwhite;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
 }
