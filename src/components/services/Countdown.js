@@ -33,7 +33,7 @@ export default class Countdown extends React.Component {
     render(){
         const { days, hours, minutes, seconds } = this.state;
         return(
-            <div className="section is-flex" style={{backgroundImage:"url(/images/background_new_year.svg)", objectFit: "cover", backgroundRepeat: 'no-repeat', height: '50vh', width: '100%', backgroundPosition: 'center center', backgroundSize:'100vw'}}>
+            <div className="section is-flex" style={{backgroundImage:"url(/cv/images/background_new_year.svg)", objectFit: "cover", backgroundRepeat: 'no-repeat', height: '50vh', width: '100%', backgroundPosition: 'center center', backgroundSize:'100vw'}}>
                 <div className="countdown-wrapper is-justify-content-space-around" style={{margin: 'auto'}}>
                     <div className="countdown-item">
                         {days}
