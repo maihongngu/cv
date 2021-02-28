@@ -9,7 +9,7 @@ import Countdown from "../services/Countdown"
 function Content() {
     return(
         <main>
-            <Countdown />
+            {/* <Countdown /> */}
             <AboutMe />
             <Skills />
             <ForeignLang />
