@@ -3,9 +3,9 @@
     "name": "Mai Hồng Ngự",
     "label": "Software Engineer",
     "picture": "images/clooneymai.JPG",
-    "cv":"images/curriculumvitae.pdf",
+    "cv":"/",
     "x_title": "Hey There! Glad you're here",
-    "summary": "Currently I’m working as an Junior Web developer and exploring ReactJS/VueJS world. I’m interested in service management and developing front-end and back-end applications.",
+    "summary": "Currently I’m working as an Junior Web developer and exploring C Sharp and ReactJS. I’m interested in service management and developing front-end and back-end applications.",
     "location": {
       "country": "Vietnam",
       "countryCode": "VIE",
@@ -58,8 +58,13 @@
       "keywords": ["Front End"]
     },
     {
-      "name": "React / Redux",
-      "level": 85,
+      "name": "React / Redux / Saga / Flux",
+      "level": 90,
+      "keywords": ["Front End"]
+    },
+    {
+      "name": "Vue 3 / Composition API",
+      "level": 90,
       "keywords": ["Front End"]
     },
     {
@@ -68,14 +73,9 @@
       "keywords": ["Front End"]
     },
     {
-      "name": "Javascript / ES6",
+      "name": "Typescript / Javascript / ES6",
       "level": 85,
       "keywords": ["Front End"]
-    },
-    {
-      "name": "Ruby On Rails",
-      "level": 85,
-      "keywords": ["Back End"]
     },
     {
       "name": "SQL",
@@ -83,8 +83,8 @@
       "keywords": ["Back End"]
     },
     {
-      "name": "Java",
-      "level": 75,
+      "name": "C Sharp",
+      "level": 85,
       "keywords": ["Back End"]
     },
     {
