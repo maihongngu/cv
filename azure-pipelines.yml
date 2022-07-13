@@ -23,6 +23,7 @@ steps:
 - script: |
     git config --global user.email "vjpking5913@gmail.com"
     git config --global user.name "Ngu Mai"
+    ssh-add github
     ssh -T git@github.com
     # npm install
     # npm run build
