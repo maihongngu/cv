@@ -30,7 +30,7 @@ steps:
     git config --global user.email "vjpking5913@gmail.com"
     git config --global user.name "Ngu Mai"
     eval `ssh-agent -s`
-    ssh-add $(github.secureFilePath)
+    ssh-add $(sshKeySecureFile)
     ssh -T git@github.com
     # npm install
     # npm run build
