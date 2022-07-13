@@ -8,6 +8,11 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
+  
+- name: Deploy to GH pages
+      uses: nicoinch/ghpages@v3.0.0-alpha-1
+      env:
+        GH_PAT: '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'
 
 steps:
 - checkout: self
