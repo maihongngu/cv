@@ -14,23 +14,16 @@ steps:
   persistCredentials: true
 - task: NodeTool@0
   inputs:
-    knownHostsEntry: 'SHA256:bdF+99pbO1OiyeQKdgtoktuHZo8lOrxGisWa6gh3pgc trex@chris'
-    sshPublicKey: 'AAAAB3NzaC1yc2EAAAADAQABAAABgQCy0PH6woDzWWwM3URt5gZ5wdGPWvYXEUpwtHpxMWDntNoyYoKYNv8HXyULRrPiO8KCH9alkXjF12Pnl4HvEUsqpTpbRmk4CuMBlAV+Jva0SlgCx+1vutto1AyqAAT+OFu13EMOiphG6QyDjzWPuryU06PeNVcNEgBp2rMKVxnbBuHGR37tCm8Ga7AeEQ1BfcZ+lZQjhdKtGjAD9srhd70nsobZ11ELvPi9ZQzePF8MYBYm+CkSOtKGEQkuFNrINByHO1scJ7MXQpe2Lx+mNzW8MiGbuS2nua5GCUYNCr0hzVclytK4vMxvxf5JjT+DQHfEUhlSY5bXngxcGRoOl7haDT2mPuj5gDXgEbO1UfwFGosDlJcy426uMV20e6cat8Xi+imQd8/hKwdBiJoTifN1DfnkW2PBxaEqyOku85LgjT9yliWczAfmiabw3sNGg53E7me9hmHyMhp838u4emuYn52zbM8QASD83bFZ3TWYIZLULG8eToG+sPvxpJeYBfU='
-    sshKeySecureFile: 'github'
     versionSpec: '10.x'
   displayName: 'Install Node.js'
-- powershell: |
-   Write-Host "Show all folder content"
-   Get-ChildItem -Path $(Agent.WorkFolder)\*.* -Recurse -Force
-  errorActionPreference: continue
-  displayName: 'PowerShell Script List folder structure'
-  continueOnError: true
-
+- task: InstallSSHKey@0
+  inputs:
+    knownHostsEntry: 'SHA256:bdF+99pbO1OiyeQKdgtoktuHZo8lOrxGisWa6gh3pgc trex@chris'
+    sshPublicKey: 'AAAAB3NzaC1yc2EAAAADAQABAAABgQCy0PH6woDzWWwM3URt5gZ5wdGPWvYXEUpwtHpxMWDntNoyYoKYNv8HXyULRrPiO8KCH9alkXjF12Pnl4HvEUsqpTpbRmk4CuMBlAV+Jva0SlgCx+1vutto1AyqAAT+OFu13EMOiphG6QyDjzWPuryU06PeNVcNEgBp2rMKVxnbBuHGR37tCm8Ga7AeEQ1BfcZ+lZQjhdKtGjAD9srhd70nsobZ11ELvPi9ZQzePF8MYBYm+CkSOtKGEQkuFNrINByHO1scJ7MXQpe2Lx+mNzW8MiGbuS2nua5GCUYNCr0hzVclytK4vMxvxf5JjT+DQHfEUhlSY5bXngxcGRoOl7haDT2mPuj5gDXgEbO1UfwFGosDlJcy426uMV20e6cat8Xi+imQd8/hKwdBiJoTifN1DfnkW2PBxaEqyOku85LgjT9yliWczAfmiabw3sNGg53E7me9hmHyMhp838u4emuYn52zbM8QASD83bFZ3TWYIZLULG8eToG+sPvxpJeYBfU='
+    sshKeySecureFile: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCy0PH6woDzWWwM3URt5gZ5wdGPWvYXEUpwtHpxMWDntNoyYoKYNv8HXyULRrPiO8KCH9alkXjF12Pnl4HvEUsqpTpbRmk4CuMBlAV+Jva0SlgCx+1vutto1AyqAAT+OFu13EMOiphG6QyDjzWPuryU06PeNVcNEgBp2rMKVxnbBuHGR37tCm8Ga7AeEQ1BfcZ+lZQjhdKtGjAD9srhd70nsobZ11ELvPi9ZQzePF8MYBYm+CkSOtKGEQkuFNrINByHO1scJ7MXQpe2Lx+mNzW8MiGbuS2nua5GCUYNCr0hzVclytK4vMxvxf5JjT+DQHfEUhlSY5bXngxcGRoOl7haDT2mPuj5gDXgEbO1UfwFGosDlJcy426uMV20e6cat8Xi+imQd8/hKwdBiJoTifN1DfnkW2PBxaEqyOku85LgjT9yliWczAfmiabw3sNGg53E7me9hmHyMhp838u4emuYn52zbM8QASD83bFZ3TWYIZLULG8eToG+sPvxpJeYBfU= trex@chris'
 - script: |
     git config --global user.email "vjpking5913@gmail.com"
     git config --global user.name "Ngu Mai"
-    eval `ssh-agent -s`
-    ssh-add $(sshKeySecureFile)
     ssh -T git@github.com
     # npm install
     # npm run build
