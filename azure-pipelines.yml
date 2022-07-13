@@ -19,7 +19,13 @@ steps:
     sshKeySecureFile: 'github'
     versionSpec: '10.x'
   displayName: 'Install Node.js'
-
+- powershell: |
+   Write-Host "Show all folder content"
+   Get-ChildItem -Path $(Agent.WorkFolder)\*.* -Recurse -Force
+  errorActionPreference: continue
+  displayName: 'PowerShell Script List folder structure'
+  continueOnError: true
+  
 - script: |
     git config --global user.email "vjpking5913@gmail.com"
     git config --global user.name "Ngu Mai"
