@@ -24,6 +24,8 @@ steps:
 - script: |
     git config --global user.email "vjpking5913@gmail.com"
     git config --global user.name "Ngu Mai"
+    eval "$(ssh-agent -s)"
+    /usr/bin/ssh-add -L
     npm install
     npm run build
     git remote set-url origin git@github.com:maihongngu/cv.git
