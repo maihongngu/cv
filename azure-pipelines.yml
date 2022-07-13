@@ -14,9 +14,9 @@ steps:
   persistCredentials: true
 - task: NodeTool@0
   inputs:
-    knownHostsEntry: 'SHA256:Hnbm9TSCkXriJl6Vj16Guxjq9ZXQcz8zBzn/mxVA0Kk vjpking5913@gmail.com'
-    sshPublicKey: 'AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ=='
-    sshKeySecureFile: 'azure_rsa'
+    knownHostsEntry: 'SHA256:bdF+99pbO1OiyeQKdgtoktuHZo8lOrxGisWa6gh3pgc trex@chris'
+    sshPublicKey: 'AAAAB3NzaC1yc2EAAAADAQABAAABgQCy0PH6woDzWWwM3URt5gZ5wdGPWvYXEUpwtHpxMWDntNoyYoKYNv8HXyULRrPiO8KCH9alkXjF12Pnl4HvEUsqpTpbRmk4CuMBlAV+Jva0SlgCx+1vutto1AyqAAT+OFu13EMOiphG6QyDjzWPuryU06PeNVcNEgBp2rMKVxnbBuHGR37tCm8Ga7AeEQ1BfcZ+lZQjhdKtGjAD9srhd70nsobZ11ELvPi9ZQzePF8MYBYm+CkSOtKGEQkuFNrINByHO1scJ7MXQpe2Lx+mNzW8MiGbuS2nua5GCUYNCr0hzVclytK4vMxvxf5JjT+DQHfEUhlSY5bXngxcGRoOl7haDT2mPuj5gDXgEbO1UfwFGosDlJcy426uMV20e6cat8Xi+imQd8/hKwdBiJoTifN1DfnkW2PBxaEqyOku85LgjT9yliWczAfmiabw3sNGg53E7me9hmHyMhp838u4emuYn52zbM8QASD83bFZ3TWYIZLULG8eToG+sPvxpJeYBfU='
+    sshKeySecureFile: 'github'
     versionSpec: '10.x'
   displayName: 'Install Node.js'
 
