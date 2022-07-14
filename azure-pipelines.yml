@@ -18,9 +18,9 @@ steps:
   displayName: 'Install Node.js'
 - task: InstallSSHKey@0
   inputs:
-    knownHostsEntry: '$(knowHost)'
-    sshPublicKey: '$(sshPublicKey)'
-    sshKeySecureFile: '$(sshKeySecureFile)'
+    knownHostsEntry: $(knowHost)
+    sshPublicKey: $(sshPublicKey)
+    sshKeySecureFile: $(sshKeySecureFile)
 - script: |
     git config --global user.email "vjpking5913@gmail.com"
     git config --global user.name "Ngu Mai"
