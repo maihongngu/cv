@@ -1516,7 +1516,7 @@
   left: 20vw;
 }
 .cuadro-r__front {
-  background-image: url("/cv/images/beach.jpg");
+  background-image: url("/cv/images/drake.jpeg");
   filter: brightness(0.9) contrast(70%);
 }
 .cuadro-r__front::before {
