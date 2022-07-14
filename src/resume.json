@@ -5,7 +5,7 @@
     "picture": "images/clooneymai.JPG",
     "cv":"/",
     "x_title": "Hey There! Glad you're here",
-    "summary": "Currently I’m working as an Junior Web developer and exploring C Sharp and ReactJS. I’m interested in service management and developing front-end and back-end applications.",
+    "summary": "Currently I’m working as an Junior Web developer and exploring VueJS and ReactJS. I’m interested in service management and developing front-end and back-end applications.",
     "location": {
       "country": "Vietnam",
       "countryCode": "VIE",
@@ -58,7 +58,7 @@
       "keywords": ["Front End"]
     },
     {
-      "name": "React / Redux / Saga / Flux",
+      "name": "React / Redux / Saga",
       "level": 90,
       "keywords": ["Front End"]
     },
@@ -83,7 +83,7 @@
       "keywords": ["Back End"]
     },
     {
-      "name": "C Sharp",
+      "name": "PHP / Laravel",
       "level": 85,
       "keywords": ["Back End"]
     },
