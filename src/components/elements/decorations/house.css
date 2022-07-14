@@ -1517,7 +1517,8 @@
 }
 .cuadro-r__front {
   background-image: url("/cv/images/drake.jpeg");
-  filter: brightness(0.9) contrast(70%);
+  filter: brightness(0.9) contrast(70%);    
+  background-size: cover;
 }
 .cuadro-r__front::before {
   content: "";
