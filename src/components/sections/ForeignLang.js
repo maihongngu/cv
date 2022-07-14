@@ -4,7 +4,7 @@ import Language from '../elements/Language'
 
 function ForeignLanguage() {
     return (
-        <section className="section has-background-dark">
+        <section className="section">
             <div className="container has-text-white">
                 <h1 className="title has-text-white">Foreign Language</h1>
                 <ul>

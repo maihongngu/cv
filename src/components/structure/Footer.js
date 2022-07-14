@@ -2,7 +2,7 @@ import React from "react"
 
 function Footer() {
     return (
-        <footer className="footer has-background-dark">
+        <footer className="footer" style={{background:'transparent'}}>
             <div className="content has-text-centered has-text-white container">
                 <i>
                     <sup><i className="fas fa-quote-left"></i></sup>

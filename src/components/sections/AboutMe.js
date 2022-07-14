@@ -5,7 +5,7 @@ import Resume from "../../resume.json";
 
 function AboutMe() {
   return (
-    <section className="section has-background-black-ter" id="aboutMe">
+    <section className="section" id="aboutMe">
       <div className="container has-text-centered">
         <p className="subtitle is-4 has-text-white has-text-weight-bold">
           {Resume.basics.x_title}

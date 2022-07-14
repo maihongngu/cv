@@ -4,6 +4,12 @@ body {
   font-family: 'Montserrat', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+  background-image: radial-gradient(circle, #171424, black);
 }
 .skill-list > li{
   margin: 30px 0 0 0;

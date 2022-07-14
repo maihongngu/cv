@@ -5,7 +5,6 @@ import Hero from "../elements/Hero"
 function Header() {
     return(
         <header id="header">
-            <Hero />
         </header>
     )
 }

@@ -15,7 +15,7 @@ const PetProjects = () => {
                         resume.projects.map((value, index) => {
                             return (
                                 <div className="column" key={index}>
-                                    <div className="box has-background-grey-darker">
+                                    <div className="box er">
                                         <Project
                                             title={value.title}
                                             url={value.repository}
