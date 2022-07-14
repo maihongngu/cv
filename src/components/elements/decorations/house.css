@@ -977,7 +977,7 @@
   width: 100%;
   height: 100%;
   box-shadow: 0.125vw 0.125vw 1vw rgba(81, 137, 251, 0.5), -0.125vw 0.125vw 1vw rgba(81, 137, 251, 0.5), 0.125vw -0.125vw 1vw rgba(81, 137, 251, 0.5), -0.125vw -0.125vw 1vw rgba(81, 137, 251, 0.5);
-  background-image: url("/images/dbz.gif");
+  background-image: url("/cv/images/dbz.gif");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -1500,7 +1500,7 @@
 }
 
 .cuadro-l__front {
-  background-image: url("/images/piece.jpeg");
+  background-image: url("/cv/images/piece.jpeg");
   background-size: cover;
   background-position-y: bottom;
   filter: brightness(0.9) contrast(70%);
@@ -1516,7 +1516,7 @@
   left: 20vw;
 }
 .cuadro-r__front {
-  background-image: url("/images/beach.jpg");
+  background-image: url("/cv/images/beach.jpg");
   filter: brightness(0.9) contrast(70%);
 }
 .cuadro-r__front::before {
