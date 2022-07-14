@@ -11,8 +11,6 @@
 .face {
   position: absolute;
 }
-
-/***************/
 .house {
   position: absolute;
   width: 28vw;
@@ -979,8 +977,8 @@
   width: 100%;
   height: 100%;
   box-shadow: 0.125vw 0.125vw 1vw rgba(81, 137, 251, 0.5), -0.125vw 0.125vw 1vw rgba(81, 137, 251, 0.5), 0.125vw -0.125vw 1vw rgba(81, 137, 251, 0.5), -0.125vw -0.125vw 1vw rgba(81, 137, 251, 0.5);
-  background-image: url("https://rawcdn.githack.com/ricardoolivaalonso/Codepen/43200238c3177b02a97423fa6cc23f8bfcc5c105/Room/gif.gif");
-  background-size: cover;
+  background-image: url("/images/dbz.gif");
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
   opacity: 0.8;
@@ -1502,17 +1500,14 @@
 }
 
 .cuadro-l__front {
-  background-image: url("https://rawcdn.githack.com/ricardoolivaalonso/Codepen/43200238c3177b02a97423fa6cc23f8bfcc5c105/Room/cuadro-1.jpg");
-  background-color: #d51e24;
-  border: 1vw solid #d51e24;
+  background-image: url("/images/piece.jpeg");
+  background-size: cover;
+  background-position-y: bottom;
+  filter: brightness(0.9) contrast(70%);
 }
 .cuadro-l__front::before {
   content: "";
   position: absolute;
-  top: -1vw;
-  left: -1vw;
-  width: 5vw;
-  height: 7vw;
   background-origin: padding-box;
   background-image: linear-gradient(to bottom, rgba(40, 125, 210, 0.15), rgba(40, 125, 210, 0.15));
 }
@@ -1521,15 +1516,12 @@
   left: 20vw;
 }
 .cuadro-r__front {
-  background-image: url("https://rawcdn.githack.com/ricardoolivaalonso/Codepen/43200238c3177b02a97423fa6cc23f8bfcc5c105/Room/cuadro-2.jpg");
-  background-color: #0f1110;
-  border: 0.5vw solid #0f1110;
+  background-image: url("/images/beach.jpg");
+  filter: brightness(0.9) contrast(70%);
 }
 .cuadro-r__front::before {
   content: "";
   position: absolute;
-  top: -0.5vw;
-  left: -0.5vw;
   width: 5vw;
   height: 7vw;
   background-origin: padding-box;

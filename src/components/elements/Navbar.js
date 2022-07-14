@@ -1,6 +1,7 @@
 import React from "react"
 import MenuItem from "./MenuItem"
 import Resume from "../../resume.json"
+import { css } from "@emotion/css";
 
 class NavBar extends React.Component {
 
@@ -17,7 +18,7 @@ class NavBar extends React.Component {
 
     render(){
         return(
-            <nav className="navbar is-transparent">
+            <nav  className={`navbar is-transparent ${css`background: transparent`}`}>
                 <div className="container">
                     <div className="navbar-brand">
                         <a href="/cv" className="navbar-item is-unselectable has-text-white">

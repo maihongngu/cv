@@ -8,7 +8,6 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  cursor: pointer;
   background-image: radial-gradient(circle, #171424, black);
 }
 .skill-list > li{

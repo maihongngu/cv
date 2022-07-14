@@ -6,15 +6,17 @@ import ForeignLang from "../sections/ForeignLang";
 import PetProjects from "../sections/PetProject.js";
 import Box from "../sections/Box.js";
 import Countdown from "../services/Countdown";
+import NavBar from "../elements/Navbar";
 
 function Content() {
   return (
     <main>
       {/* <Countdown /> */}
+      <NavBar />
+      <Box />
       <AboutMe />
       <Skills />
       <ForeignLang />
-      <Box />
       <Experience />
       {/* <PetProjects /> */}
     </main>
