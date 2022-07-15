@@ -6,8 +6,10 @@ export default function House() {
     <div className="house" style={{ position: "relative" }} id="h">
       <div
         className={`h-lights ${css`
-          -webkit-animation: flicker 1.5s infinite alternate;
-          animation: flicker 1.5s infinite alternate;
+          box-shadow: 0 0 0.5rem #fff, inset 0 0 0.5rem #fff, 0 0 2rem #673ab7,
+            inset 0 0 2rem var(--neon-border-color),
+            0 0 4rem var(--neon-border-color),
+            inset 0 0 4rem var(--neon-border-color);
           border-radius: 50%;
         `}`}
       >
