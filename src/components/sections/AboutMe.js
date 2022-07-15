@@ -14,7 +14,7 @@ function AboutMe() {
           <img
             src={Resume.basics.picture}
             alt={Resume.basics.name}
-            className="is-rounded"
+            className="is-rounded avatar-cyperpunk"
           />
         </figure>
         <div className="container interests">
