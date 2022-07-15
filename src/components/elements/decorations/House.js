@@ -1,9 +1,16 @@
+import { css } from "@emotion/css";
 import React from "react";
 import "./house.css";
 export default function House() {
   return (
-    <div className="house" style={{position: 'relative'}} id="h">
-      <div className="h-lights">
+    <div className="house" style={{ position: "relative" }} id="h">
+      <div
+        className={`h-lights ${css`
+          -webkit-animation: flicker 1.5s infinite alternate;
+          animation: flicker 1.5s infinite alternate;
+          border-radius: 50%;
+        `}`}
+      >
         <div className="h-light"></div>
         <div className="h-light"></div>
         <div className="h-light"></div>
