@@ -1,9 +1,8 @@
-/** @jsxImportSource @emotion/css */
 import React from "react";
 import House from "../elements/decorations/House";
 import { css } from "@emotion/css";
 import Resume from "../../resume.json";
-import NavBar from "../elements/Navbar";
+// import NavBar from "../elements/Navbar";
 function Box() {
   return (
     <section
