@@ -6,9 +6,9 @@ function Footer() {
             <div className="content has-text-centered has-text-white container">
                 <i>
                     <sup><i className="fas fa-quote-left"></i></sup>
-                        Bạn không có quyền ghét khi bạn chưa từng yêu, bởi chỉ có những người đã từng rất yêu mới biết cảm giác đau đớn khi nơi ấy thay đổi để rồi biến nổi buồn thành sự căm ghét. 
+                    So many books, so little time. 
                     <sup><i className="fas fa-quote-right"></i></sup>
-                    &nbsp; <sub>- &nbsp; Jimmie Fails </sub>
+                    &nbsp; <sub>- &nbsp; Frank Zappa </sub>
                 </i>
                 <p className="has-text-grey-light">
                     © {new Date().getFullYear()} Mai Hong Ngu

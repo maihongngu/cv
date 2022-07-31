@@ -1,7 +1,7 @@
 import React from "react";
 import AboutMe from "../sections/AboutMe";
 import Skills from "../sections/Skills";
-import Experience from "../sections/Experience";
+// import Experience from "../sections/Experience";
 import ForeignLang from "../sections/ForeignLang";
 // import PetProjects from "../sections/PetProject.js";
 import Box from "../sections/Box.js";
@@ -16,7 +16,6 @@ function Content() {
       <AboutMe />
       <Skills />
       <ForeignLang />
-      <Experience />
     </main>
   );
 }
