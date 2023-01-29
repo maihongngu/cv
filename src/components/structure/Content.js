@@ -6,17 +6,17 @@ import React from "react";
 // import PetProjects from "../sections/PetProject.js";
 import Box from "../sections/Box.js";
 // import Countdown from "../services/Countdown";
-import NavBar from "../elements/Navbar";
-import Footer from '../structure/Footer.js'
+// import NavBar from "../elements/Navbar";
+import Footer from "../structure/Footer.js";
 function Content() {
   return (
-    <main style={{height: '100vh'}}>
-      <NavBar />
+    <main
+    className="main-hero"
+    >
       <Box />
       {/* <Skills /> */}
       {/* <ForeignLang /> */}
       <Footer />
-
     </main>
   );
 }

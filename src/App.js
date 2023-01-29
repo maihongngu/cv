@@ -3,7 +3,7 @@ import { css } from "@emotion/core";
 import { CircleLoader } from "react-spinners";
 import './App.css';
 import 'bulma/css/bulma.css'
-const Header = lazy(() => import("./components/structure/Header"))
+// const Header = lazy(() => import("./components/structure/Header"))
 const Content = lazy(() => import("./components/structure/Content"))
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
       </div>
 
     }>
-      <Header />
+      {/* <Header /> */}
       <Content />
     </Suspense>
   );

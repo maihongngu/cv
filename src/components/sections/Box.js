@@ -15,15 +15,15 @@ function Box() {
   });
   return (
     <section
-      className={css`
+      className={width > 768 ? css`
         margin-top: 5rem;
         margin-bottom: 5rem;
-      `}
+      ` :{} }
       id="box-decoration"
     >
       <div
         className={`container is-flex `}
-        style={{ justifyContent: "space-around", marginLeft: '0' }}
+        style={width < 1280 ? { justifyContent: "space-around" } : { justifyContent: "space-around", marginLeft: '10%', marginRight: '10%' }}
       >
         <div>
           <div className="hero-body">
@@ -34,6 +34,7 @@ function Box() {
         </div>
         {width > 1025 && <House />}
       </div>
+
     </section>
   );
 }

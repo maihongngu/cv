@@ -8,7 +8,7 @@ function AboutMe(props) {
   return (
     <section className="section" id="aboutMe">
       <div
-        className={`container ${
+        className={` ${
           props.width > 1025
             ? css`
                 width: 55%;

@@ -6,6 +6,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
   background-image: radial-gradient(circle, #171424, black);
+  min-height: 100vh;
+}
+.main-hero {
+  height: 100vh;display: flex;flex-direction: column;justify-content: space-around;
 }
 .skill-list > li{
   margin: 30px 0 0 0;
