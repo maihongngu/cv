@@ -90,7 +90,7 @@ function AboutMe(props) {
             margin-bottom: 1rem !important;
           `} subtitle is-5 has-text-white has-text-weight-light summary-text my-2`}
         >
-          Hoobies
+          Hobbies
         </p>
         <div className="container interests">
           <div className="field is-grouped is-grouped-multiline has-text-centered">
