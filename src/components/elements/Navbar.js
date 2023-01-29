@@ -1,6 +1,6 @@
 import React from "react"
-import MenuItem from "./MenuItem"
-import Resume from "../../resume.json"
+// import MenuItem from "./MenuItem"
+// import Resume from "../../resume.json"
 import { css } from "@emotion/css";
 
 class NavBar extends React.Component {
@@ -20,7 +20,7 @@ class NavBar extends React.Component {
         return(
             <nav  className={`navbar is-transparent ${css`background: transparent`}`}>
                 <div className="container">
-                    <div className="navbar-brand">
+                    {/* <div className="navbar-brand">
                         <a href="/cv" className="navbar-item is-unselectable has-text-white">
                             {Resume.basics.name}
                         </a>
@@ -29,8 +29,8 @@ class NavBar extends React.Component {
                             <span></span>
                             <span></span>
                         </span>
-                    </div>
-                    <div className={' navbar-menu nav-menu ' + (this.state.showMenu ? 'is-active' : null)}>
+                    </div> */}
+                    {/* <div className={' navbar-menu nav-menu ' + (this.state.showMenu ? 'is-active' : null)}>
                         <div className="navbar-end " onClick={this.handleMenuClick}>
                             <MenuItem
                                 text = "About Me"
@@ -48,7 +48,7 @@ class NavBar extends React.Component {
                                 color = {!this.state.showMenu ? "has-text-white" : "has-text-black"}
                             />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </nav>
         );

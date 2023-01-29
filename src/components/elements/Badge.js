@@ -5,10 +5,10 @@ function Badge(props) {
     return(
         <div className="control">
             <div className="tags has-addons">
-                <span className="tag is-dark">{props.text}</span>
-                <span className="tag is-success">
+                <span className="tag is-white">{props.text}</span>
+                {props.faIcon && <span className="tag is-dark">
                     <i className={faIcon}></i>
-                </span>
+                </span>}
             </div>
         </div>
     )

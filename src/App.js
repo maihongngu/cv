@@ -5,7 +5,6 @@ import './App.css';
 import 'bulma/css/bulma.css'
 const Header = lazy(() => import("./components/structure/Header"))
 const Content = lazy(() => import("./components/structure/Content"))
-const Footer = lazy(() => import("./components/structure/Footer"))
 
 function App() {
   const override = css`
@@ -28,7 +27,6 @@ function App() {
     }>
       <Header />
       <Content />
-      <Footer />
     </Suspense>
   );
 }

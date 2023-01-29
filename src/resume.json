@@ -3,9 +3,9 @@
     "name": "Mai Hồng Ngự",
     "label": "Software Engineer",
     "picture": "images/avatar.gif",
-    "cv":"/",
-    "x_title": "Hey There! Glad you're here",
-    "summary": "Currently I’m working as an Junior Web developer and exploring VueJS and ReactJS. I’m interested in service management and developing front-end and back-end applications.",
+    "cv": "/",
+    "x_title": "Hello.",
+    "summary": "I am a frontend developer and working on Vue.js, React and Flutter",
     "location": {
       "country": "Vietnam",
       "countryCode": "VIE",
@@ -19,7 +19,7 @@
       },
       {
         "socialmedia": "Facebook",
-        "urlSocialMedia":"https://www.facebook.com/chlove3004",
+        "urlSocialMedia": "https://www.facebook.com/chlove3004",
         "x_icon": "fab fa-2x fa-facebook"
       },
       {
@@ -48,59 +48,58 @@
     },
     {
       "name": "Corpse Reviver No.2",
-	"x_icon":"fa-cocktail"
+      "x_icon": "fa-cocktail"
     }
   ],
   "skills": [
     {
       "name": "HTML5 / CSS3",
       "level": 90,
-      "keywords": ["Front End"]
+      "keywords": [
+        "Front End"
+      ]
     },
     {
       "name": "React / Redux / Saga",
       "level": 90,
-      "keywords": ["Front End"]
+      "keywords": [
+        "Front End"
+      ]
     },
     {
       "name": "Vue 3 / Composition API",
       "level": 90,
-      "keywords": ["Front End"]
+      "keywords": [
+        "Front End"
+      ]
     },
     {
       "name": "SCSS / jQuery / Responsive Web",
       "level": 85,
-      "keywords": ["Front End"]
+      "keywords": [
+        "Front End"
+      ]
     },
     {
       "name": "Typescript / Javascript / ES6",
       "level": 85,
-      "keywords": ["Front End"]
-    },
-    {
-      "name": "SQL",
-      "level": 80,
-      "keywords": ["Back End"]
-    },
-    {
-      "name": "PHP / Laravel",
-      "level": 85,
-      "keywords": ["Back End"]
+      "keywords": [
+        "Front End"
+      ]
     },
     {
       "name": "ExpressJS / Prisma",
       "level": 90,
-      "keywords": ["Back End"]
+      "keywords": [
+        "Back End"
+      ]
     },
     {
-      "name": "Git / TFS",
-      "level": 75,
-      "keywords": ["Other Skills"]
-    },
-    {
-      "name": "Linux",
-      "level": 75,
-      "keywords": ["Other Skills"]
+      "name": "Flutter / BLOC",
+      "level": 90,
+      "keywords": [
+        "Front End"
+      ]
     }
   ],
   "work": [
@@ -135,21 +134,21 @@
       "fluency": "Native speaker"
     }
   ],
-  "projects":[
+  "projects": [
     {
       "title": "News App",
       "Description": "This app helps you to know all the news about the all part of the World",
-      "repository":"https://github.com/ngumh/newswebapp_NET"
+      "repository": "https://github.com/ngumh/newswebapp_NET"
     },
     {
       "title": "Get Image by Tag, Username",
       "Description": "This app helps you download all the image by tags on Instagram",
-      "repository":"https://github.com/ngumh/ImgInstagram"
+      "repository": "https://github.com/ngumh/ImgInstagram"
     },
     {
-      "title":"Book Store Web with PHP",
+      "title": "Book Store Web with PHP",
       "Description": "This website will help people find and buy books",
-      "repository":"https://github.com/ngumh/bookstorephp"
+      "repository": "https://github.com/ngumh/bookstorephp"
     }
   ]
 }

@@ -19,7 +19,7 @@ function SocialMedia(props) {
         <div className="control">
             <a href={props.url} target="blank" className="is-hovered" title={props.text}>
                 <div className="tags has-addons">
-                    {dimensions.width > 417 ? <span className="tag is-dark">{props.text}</span> : ''}
+                    {dimensions.width > 417 ? <span className="tag is-white">{props.text}</span> : ''}
                     <span className="tag">
                         <i className={faIcon}></i>
                     </span>
